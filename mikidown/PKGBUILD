@@ -12,6 +12,7 @@ depends=('python'
     	 'pyqt'
          'python-markdown'
          'python-whoosh')
+optdepends=('python-pygments: for code block syntax highlighting')
 source=(https://github.com/$_githubuser/$pkgname/tarball/v$pkgver)
 md5sums=('25a74f5f3e6f2e18a9df2975cb558828')
 

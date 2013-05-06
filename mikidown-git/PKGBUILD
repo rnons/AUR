@@ -13,6 +13,7 @@ depends=('git'
 		 'pyqt'
 		 'python-markdown'
          'python-whoosh')
+optdepends=('python-pygments: for code block syntax highlighting')
 _gitroot="https://github.com/rnons/mikidown.git"
 _gitname="mikidown"
 
